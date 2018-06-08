@@ -65,7 +65,7 @@ module.exports = {
       choices: [
         {
           name:
-            'Runtime-only: Since the runtime-only builds are roughly 30% lighter-weight than their full-build counterparts, you should use it whenever you can. (recommended)',
+            'Runtime-only: Since the runtime-only builds are roughly 30% lighter-weight than their full-build counterparts, \nyou should use it whenever you can. (recommended)',
           value: 'runtime',
           short: 'runtime',
         },
@@ -125,7 +125,7 @@ module.exports = {
       message: 'Pick an ESLint preset',
       choices: [
         {
-          name: 'Standard (https://github.com/standard/standard)',
+          name: 'Standard (https://github.com/standard/standard) (recommended)',
           value: 'standard',
           short: 'Standard',
         },
