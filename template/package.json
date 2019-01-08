@@ -56,18 +56,18 @@
     "eslint-plugin-node": "^8.0.0",
     {{/if_eq}}
     {{#if_eq lintConfig "airbnb"}}
-    "eslint-config-airbnb-base": "^11.3.0",
-    "eslint-import-resolver-webpack": "^0.8.3",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-import": "^2.14.0",
     {{/if_eq}}
     {{/lint}}
     {{#if_eq runner "jest"}}
-    "babel-jest": "^21.0.2",
-    "babel-plugin-dynamic-import-node": "^1.2.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "jest": "^22.0.4",
-    "jest-serializer-vue": "^0.3.0",
-    "vue-jest": "^1.0.2",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^23.6.0",
+    "jest-serializer-vue": "^2.0.2",
+    "vue-jest": "^3.0.2",
     {{/if_eq}}
     {{#if_eq runner "karma"}}
     "cross-env": "^5.0.1",
@@ -89,11 +89,11 @@
     "phantomjs-prebuilt": "^2.1.14",
     {{/if_eq}}
     {{#e2e}}
-    "babel-register": "^6.22.0",
-    "chromedriver": "^2.27.2",
-    "cross-spawn": "^5.0.1",
-    "nightwatch": "^0.9.12",
-    "selenium-server": "^3.0.1",
+    "babel-register": "^6.26.0",
+    "chromedriver": "^2.45.0",
+    "cross-spawn": "^6.0.5",
+    "nightwatch": "^1.0.17",
+    "selenium-server": "^3.141.59",
     {{/e2e}}
     {{#gzip}}
     "compression-webpack-plugin": "^1.1.12",
